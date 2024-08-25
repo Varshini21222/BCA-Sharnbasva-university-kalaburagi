@@ -1,0 +1,60 @@
+#navbar-mobile {
+  display: none;
+}
+
+/* Desktop Navbar */
+#navbar {
+  position: relative;
+  background-color: #009dae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  border-left: 3px solid #000;
+  flex-grow: 1;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-link {
+  display: block;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.menu-item:hover .menu-link {
+  color: #fff;
+  background-color: #f7ccac;
+}
+
+#mrq {
+  margin: 0;
+  color: blue;
+  font-weight: bold;
+}
+
+#leftsection,
+#rightsection {
+  height: 450px;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#leftsection {
+  width: 29%;
+  float: left;
+}
+
+#rightsection {
+  width: 69%;
+  float: right;
+}
